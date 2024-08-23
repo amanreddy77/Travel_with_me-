@@ -25,12 +25,12 @@ const Home = () => {
           <div>
             <div className="my-8">
               <h1 className="text-[33px] font-cursiveFont text-center md:text-[40px] md:text-start font-bold mb-4 ">
-                Plan Your Perfect Trip with a{" >>>>>"}
+               Plan Your Perfect Trip with a{" "}
                 <span className="text-BaseColor text-[50px] font-cursiveFont">
-                    Travel Buddy !
+                   {"  --->"} Travel Buddy !
                 </span>
               </h1>
-              <p className="text-lg leading-8 text-gray-800 font-semibold hidden md:block">
+              <p className="text-lg leading-8 text-gray-800 font-sans hidden md:block">
                 "Welcome to <span className="text-BaseColor text-[30px]">Travel With Me</span>, you go-to destination with a partner makes
                 unforgettable adventures! plan
                 seamlessly, and embark on a journey of a lifetime.You can find a travel mate to embrace your journey to the places you visit, you choose the date and place we will notify you all the way to match, get yourself registered now, connect with like-minded travelers,
