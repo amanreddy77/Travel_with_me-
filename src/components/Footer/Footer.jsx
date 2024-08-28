@@ -28,7 +28,7 @@ const Footer = () => {
                 <p className="mb-2">Address: 123 Travel St, City, Country</p>
                 <p className="mb-2">Phone: +1 234 567 890</p>
                 <p className="mb-2">Email: info@travelwithme.com</p>
-                <p>&copy; 2024 Aman Reddy. All rights reserved.</p>
+                <p>&copy; 2024 Travelwithme. All rights reserved.</p>
               </div>
             </div>
 

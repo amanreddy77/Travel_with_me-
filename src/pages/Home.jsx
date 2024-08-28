@@ -25,9 +25,9 @@ const Home = () => {
           <div>
             <div className="my-8">
               <h1 className="text-[33px] font-cursiveFont text-center md:text-[40px] md:text-start font-bold mb-4 ">
-               Plan Your Perfect Trip with a{" "}
+               Plan Your Perfect Trip with {" "}
                 <span className="text-BaseColor text-[50px] font-cursiveFont">
-                   {"  --->"} Travel Buddy !
+                   {" -->"} Travel With Me !
                 </span>
               </h1>
               <p className="text-lg leading-8 text-gray-800 font-sans hidden md:block">

@@ -21,7 +21,7 @@ const Newsletter = () => {
     <div>
       <div className="newsletter-container p-8 w-full max-w-md">
         <h2 className="text-2xl font-semibold mb-4">
-          Subscribe to Our Newsletter
+          Subscribe for more Benifits 
         </h2>
         <form onSubmit={handleSubmit} className="flex flex-col">
           <label htmlFor="email" className="mb-2 text-gray-200 font-semibold">
