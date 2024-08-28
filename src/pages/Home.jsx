@@ -27,11 +27,11 @@ const Home = () => {
               <h1 className="text-[33px] font-cursiveFont text-center md:text-[40px] md:text-start font-bold mb-4 ">
                Plan Your Perfect Trip with {" "}
                 <span className="text-BaseColor text-[50px] font-cursiveFont">
-                   {" -->"} Travel With Me !
+                   {" ---->"} Trip With Me !
                 </span>
               </h1>
               <p className="text-lg leading-8 text-gray-800 font-sans hidden md:block">
-                "Welcome to <span className="text-BaseColor text-[30px]">Travel With Me</span>, you go-to destination with a partner makes
+                "Welcome to <span className="text-BaseColor text-[30px]">Trip With Me</span>, you go-to destination with a partner makes
                 unforgettable adventures! plan
                 seamlessly, and embark on a journey of a lifetime.You can find a travel mate to embrace your journey to the places you visit, you choose the date and place we will notify you all the way to match, get yourself registered now, connect with like-minded travelers,
                 and create lasting memories. Your next adventure awaits with
@@ -39,7 +39,7 @@ const Home = () => {
               </p>
 
               <p className="mobpara md:hidden ">
-                "Welcome to TripsTravel, your go-to destination for
+                "Welcome to Tripwithme, your go-to destination for
                 unforgettable adventures! Explore diverse destinations, plan
                 seamlessly, and embark on a journey of a lifetime."
               </p>

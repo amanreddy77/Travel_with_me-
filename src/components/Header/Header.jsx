@@ -86,11 +86,11 @@ const Header = () => {
               className="w-8 h-8 cursor-pointer absolute top-4 right-0 mr-6 text-gray-600 hover:text-black"
               onClick={handleMenuToggle}
             />
-            <ul className="flex flex-col item-center h-full justify-center gap-10">
+            <ul className="flex flex-col item-center h-full justify-center gap-10 ">
               {role !== "admin" && (
                 <>
                   <Link to="/home" onClick={handleMenuToggle}>
-                    Home
+                     Home
                   </Link>
                   <Link to="/tours" onClick={handleMenuToggle}>
                     Tours
@@ -147,11 +147,11 @@ const Header = () => {
             <Link to="/create">Create</Link>
           </ul>
         ) : (
-          <ul className="md:flex hidden space-x-4">
-            <Link to="/home">Home</Link>
-            <Link to="/tours">Tours</Link>
-            <Link to="/about">Gallery</Link>
-            <Link to="/contact">Contact</Link>
+          <ul className="md:flex hidden space-x-4 ">
+            <Link to="/home"> <span className="btn shadow-[0_9px_0_rgb(0,0,0)] hover:shadow-[0_4px_0px_rgb(0,0,0)] text-black bg-white ease-out hover:translate-y-1 transition-all rounded ">Home</span></Link>
+            <Link to="/tours"><span className=" btn shadow-[0_9px_0_rgb(0,0,0)] hover:shadow-[0_4px_0px_rgb(0,0,0)] text-black bg-white ease-out hover:translate-y-1 transition-all rounded">Tours</span></Link>
+            <Link to="/about"><span className=" btn shadow-[0_9px_0_rgb(0,0,0)] hover:shadow-[0_4px_0px_rgb(0,0,0)] text-black bg-white ease-out hover:translate-y-1 transition-all rounded">Gallery</span></Link>
+            <Link to="/contact"><span className="btn shadow-[0_9px_0_rgb(0,0,0)] hover:shadow-[0_4px_0px_rgb(0,0,0)] text-black bg-white ease-out hover:translate-y-1 transition-all rounded">Contact</span></Link>
           </ul>
         )}
 
@@ -174,12 +174,12 @@ const Header = () => {
           ) : (
             <>
               <Link to="/login">
-                <button className="px-4 py-2 text-BaseColor rounded hover:text-BHoverColor">
+                <button className="  btn2 shadow-[0_9px_0_rgb(0,0,0)] hover:shadow-[0_4px_0px_rgb(0,0,0)] text-black bg-white ease-out hover:translate-y-1 transition-all rounded">
                   Login
                 </button>
               </Link>
               <Link to="/register">
-                <button className="btn">Register</button>
+                <button className="btn2 shadow-[0_9px_0_rgb(0,0,0)] hover:shadow-[0_4px_0px_rgb(0,0,0)] text-black bg-white ease-out hover:translate-y-1 transition-all rounded">Register</button>
               </Link>
             </>
           )}

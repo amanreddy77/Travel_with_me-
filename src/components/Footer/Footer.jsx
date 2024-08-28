@@ -25,10 +25,10 @@ const Footer = () => {
                 className="h-40 md:mr-12 "
               />
               <div className="flex flex-col mt-8 text-center md:text-left">
-                <p className="mb-2">Address: 123 Travel St, City, Country</p>
+                <p className="mb-2">Address: 12-30 hyderabad, Telangana, India</p>
                 <p className="mb-2">Phone: +1 234 567 890</p>
-                <p className="mb-2">Email: info@travelwithme.com</p>
-                <p>&copy; 2024 Travelwithme. All rights reserved.</p>
+                <p className="mb-2">Email: info@tripwithme.com</p>
+                <p>&copy; 2024 Tripwithme. All rights reserved.</p>
               </div>
             </div>
 

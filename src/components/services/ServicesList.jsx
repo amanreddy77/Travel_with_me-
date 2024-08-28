@@ -1,7 +1,7 @@
 // ServicesList.jsx
 import React from 'react';
 import ServicesCard from './ServicesCard';
-import { MdHotel } from "react-icons/md";
+import { MdDirectionsCar } from "react-icons/md";
 import { FaPlaneDeparture } from "react-icons/fa";
 import { IoMdBus } from "react-icons/io";
 
@@ -18,9 +18,9 @@ const ServicesList = () => {
       icon: <FaPlaneDeparture />,
     },
     {
-      title: 'Buses',
+      title: 'Travel vehicles',
       description: 'Experience all the travel modes according to your comfort.',
-      icon: <MdHotel />,
+      icon: <MdDirectionsCar/>,
     },
   ];
   
